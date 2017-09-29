@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.artem.other.Controller">
+  <tabs>
+    <Tab closable="false" text="Отчет ВИКС">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="425.0" prefWidth="612.0">
+               <children>
+                  <ProgressBar layoutX="1.0" layoutY="379.0" prefHeight="20.0" prefWidth="612.0" progress="0.0" />
+                   <DatePicker fx:id="startData" layoutX="39.0" layoutY="54.0" onAction="#dateStart" />
+                  <DatePicker fx:id="dateEnd" layoutX="39.0" layoutY="102.0" onAction="#dateEnd" />
+                  <Button layoutX="39.0" layoutY="301.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="172.0" text="Создать отчет ВИКС" textFill="#0a3601">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font></Button>
+                  <Button accessibleHelp="Проверка на ошибки связанные с неправильным пересчетом итогового бала и реальным баллом по количеству замечаний, так же несоответсвие балла степени замечания" layoutX="39.0" layoutY="164.0" mnemonicParsing="false" onAction="#detectError" prefHeight="34.0" prefWidth="263.0" text="Проверка ведомостей на ошибки" textAlignment="CENTER" textFill="#940505" textOverrun="CENTER_ELLIPSIS" />
+                  <Button layoutX="331.0" layoutY="165.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="248.0" text="Исправить Автоматически" textFill="#0f801e" />
+                  <Label layoutX="21.0" layoutY="59.0" text="с" />
+                  <Label layoutX="15.0" layoutY="106.0" text="по" />
+                  <Label layoutX="48.0" layoutY="30.0" prefHeight="17.0" prefWidth="171.0" text="Период проверки" />
+                  <Button layoutX="455.0" layoutY="54.0" mnemonicParsing="false" onAction="#directStart" prefHeight="25.0" prefWidth="123.0" text="Файлы бальности" />
+                  <Button layoutX="455.0" layoutY="102.0" mnemonicParsing="false" onAction="#directEnd" prefHeight="25.0" prefWidth="124.0" text="Отчет ЭЧ" textFill="#0d0d0d">
+                     <cursor>
+                        <Cursor fx:constant="OPEN_HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="255.0" layoutY="51.0" prefHeight="33.0" prefWidth="195.0" text="Выберите диекторию данных" />
+                  <Label layoutX="255.0" layoutY="106.0" prefHeight="17.0" prefWidth="193.0" text="Выберите директорию отчетности" />
+               </children>
+            </AnchorPane>
+      </content>
+    </Tab>
+      <Tab closable="false" text="Рапорт и сводная">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </Tab>
+      <Tab disable="true" text="Анализы и диаграммы">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </Tab>
+    <Tab disable="true" text="Телеграмма">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+      <Tab closable="false" text="Прочее">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>

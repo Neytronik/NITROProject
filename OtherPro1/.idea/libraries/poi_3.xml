@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="poi-3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Полезные Библиотеки/poi-3.16" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/lib" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/ooxml-lib" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Полезные Библиотеки/poi-3.16/docs/apidocs" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/docs/apidocs" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/docs/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/osgi/src/main/java" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/osgi/src/test/java" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/src/examples/src" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/src/java" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/src/ooxml/java" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/src/ooxml/testcases" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/src/ooxml/testcases/org/apache/poi/ss/util" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/src/scratchpad/src" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/src/scratchpad/testcases" />
+      <root url="file://G:/Полезные Библиотеки/poi-3.16/src/testcases" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Полезные Библиотеки/poi-3.16" recursive="false" />
+    <jarDirectory url="file://G:/Полезные Библиотеки/poi-3.16" recursive="false" />
+    <jarDirectory url="file://G:/Полезные Библиотеки/poi-3.16/lib" recursive="false" />
+    <jarDirectory url="file://G:/Полезные Библиотеки/poi-3.16/ooxml-lib" recursive="false" />
+  </library>
+</component>
